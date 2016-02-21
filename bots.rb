@@ -21,7 +21,7 @@ class CloneBot < Ebooks::Bot
     # Configuration for all CloneBots
     self.consumer_key = "sPKrpam6WiGPM7UELcc3RkYCf"
     self.consumer_secret = "8gRcrTuxbqUt5z7Cg0fC49g0zguH4T7daWgRAyUCeJoWa3QWP2"
-    self.blacklist = []
+    self.blacklist = ['kapan__lagi']
     self.delay_range = 1..6
     @userinfo = {}
   end
