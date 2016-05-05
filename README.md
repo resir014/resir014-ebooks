@@ -1,4 +1,4 @@
-# ebooks_example
+# resir014-ebooks
 
 [twitter_ebooks](https://github.com/mispy/twitter_ebooks)-based ebooks bot for [@resir014](https://twitter.com/resir014).
 
