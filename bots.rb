@@ -32,8 +32,8 @@ class CloneBot < Ebooks::Bot
   def on_startup
     load_model!
 
-    scheduler.cron '0 * * * *' do
-      # Every hour, post a single tweet
+    scheduler.cron '0 */2 * * *' do
+      # Every 2 hours, post a single tweet
       tweet(model.make_statement)
     end
   end
